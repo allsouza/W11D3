@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import Greeting from './greeting';
-import { logout } from '../../util/session_api_util'
+import { logout } from '../../actions/user_actions'
 
 const mSTP = state => {
     return ({
